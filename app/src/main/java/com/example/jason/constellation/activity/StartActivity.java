@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import com.example.jason.constellation.R;
 import com.example.jason.constellation.adapter.StartGridViewAdapter;
 import com.example.jason.constellation.base.BaseActivity;
+import com.example.jason.constellation.share.AndroidShare;
 
 
 public class StartActivity extends BaseActivity {
@@ -37,9 +38,9 @@ public class StartActivity extends BaseActivity {
                 Intent intent = new Intent(StartActivity.this, StartDetailActivity.class);
                 Bundle bundle = new Bundle();
                 String startName = null;
-                switch (position){
+                switch (position) {
                     case 0:
-                       startName = "白羊座";
+                        startName = "白羊座";
                         break;
                     case 1:
                         startName = "金牛座";
@@ -52,7 +53,7 @@ public class StartActivity extends BaseActivity {
                         break;
                     case 4:
                         startName = "狮子座";
-                       break;
+                        break;
                     case 5:
                         startName = "处女座";
                         break;
@@ -75,7 +76,7 @@ public class StartActivity extends BaseActivity {
                         startName = "双鱼座";
                         break;
                 }
-                bundle.putString("startName",startName);
+                bundle.putString("startName", startName);
                 intent.putExtras(bundle);
                 StartActivity.this.startActivity(intent);
             }
@@ -91,4 +92,9 @@ public class StartActivity extends BaseActivity {
         });
     }
 
+    public void shareMyLocation() {
+        AndroidShare as = new AndroidShare(this, "分享内容", "URL");
+        as.show();
+    }
 }
+
