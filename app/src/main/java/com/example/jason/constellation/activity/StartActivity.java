@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import com.example.jason.constellation.R;
 import com.example.jason.constellation.adapter.StartGridViewAdapter;
 import com.example.jason.constellation.base.BaseActivity;
-import com.example.jason.constellation.share.AndroidShare;
 
 
 public class StartActivity extends BaseActivity {
@@ -90,11 +89,6 @@ public class StartActivity extends BaseActivity {
                 finish();
             }
         });
-    }
-
-    public void shareMyLocation() {
-        AndroidShare as = new AndroidShare(this, "分享内容", "URL");
-        as.show();
     }
 }
 
