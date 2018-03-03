@@ -41,6 +41,13 @@ public class MainActivity extends BaseActivity {
                         Intent intent1 = new Intent(MainActivity.this, StartActivity.class);
                         MainActivity.this.startActivity(intent1);
                         break;
+
+                    case 2:
+                        Intent intent2 = new Intent(MainActivity.this, StartBookActivity.class);
+                        MainActivity.this.startActivity(intent2);
+                        break;
+                    default:
+                        break;
                 }
             }
         });

@@ -55,6 +55,10 @@
             android:theme="@style/Theme.Design.NoActionBar"/>
         <activity android:name=".activity.CheckStartActivity">
         </activity>
+        <activity android:name=".activity.StartBookActivity">
+        </activity>
+        <activity android:name=".activity.StartBookInfoActivity">
+        </activity>
     </application>
 
 </manifest>

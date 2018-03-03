@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/title_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/start_title_back_start_book_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="星座宝典"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_bai_yang"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="白 羊 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_jin_niu"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="金 牛 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_shuang_zhi"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="双 子 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_jv_xie"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="巨 蟹 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_shi_zhi"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="狮 子 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_chu_nv"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="处 女 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_tian_ping"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="天 秤 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_tian_xie"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="天 蝎 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_she_shou"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="射 手 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_mo_xie"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="魔 蝎 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_sui_ping"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="水 瓶 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_shuang_yu"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_14dp_blue_primary_solid"
+                android:gravity="center"
+                android:text="双 鱼 座"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

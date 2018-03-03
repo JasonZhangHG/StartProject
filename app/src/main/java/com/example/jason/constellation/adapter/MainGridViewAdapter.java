@@ -11,8 +11,8 @@ import com.example.jason.constellation.R;
 
 public class MainGridViewAdapter extends BaseAdapter {
 
-    private String[] title = {"匹配星座", "星座运势"};
-    private int img[] = {R.drawable.category_dream, R.drawable.category_star};
+    private String[] title = {"匹配星座", "星座运势", "星座宝典"};
+    private int img[] = {R.drawable.category_dream, R.drawable.category_star, R.drawable.icon_start_bao_dian};
     private ImageView imageView;
 
     @Override
