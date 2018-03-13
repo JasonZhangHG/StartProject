@@ -14,6 +14,7 @@
         android:layout_marginTop="26dp"
         android:background="@drawable/title_background"
         android:orientation="horizontal">
+
         <ImageView
             android:id="@+id/start_title_back_start_book_info_activity"
             android:layout_width="wrap_content"
@@ -35,7 +36,9 @@
             android:layout_width="56dp"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:src="@drawable/share"/>
 
     </RelativeLayout>
